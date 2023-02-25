@@ -1,0 +1,810 @@
+/* inika-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/font/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/font/inika-v21-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inika-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/font/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/font/inika-v21-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+  /* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/font/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/font/inter-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/font/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/font/inter-v12-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}  
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header settings */
+
+header {
+    position: absolute;
+    min-width: 1440px;
+    width: 100vh;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+    background: #EDF2EC;
+}
+
+.navbar {
+    position: absolute;
+    min-width: 1220px;
+    width: 84.72%;
+    height: 50px;
+    right: 109px;
+    top: 42px;
+    
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+}
+/* identical to box height, or 312% */
+
+.header_nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nav_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_item {
+    margin-right: 46px;
+    text-decoration: none;
+    
+}
+
+.nav_item:last-child {
+    margin-right: 0px;
+}
+
+.nav_item:hover, .nav_item:focus, .nav_item:active {
+    opacity: 0.7;
+}
+
+.nav_text_color {
+    color: #E06733;
+}
+
+/* header settings */
+
+/* section welcome settings*/
+.welcome {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    min-width: 1440px;
+    height: 532px;
+    margin-top: 134px;
+    background: #EDF2EC;
+}
+
+.welcome_section {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-height: 407px;
+    width: 1222px;
+    margin-left: 109px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+    margin-right: 109px;
+}
+
+
+
+
+.learn_more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    width: 549px;
+    height: 340px;
+    margin-left: 210px;
+}
+
+.learn_more_text1 {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.span_welcome_text_color {
+    color: #499A18;
+}
+
+
+.learn_more_text2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.button_learn_more {
+    position: absolute;
+    border: 2px solid #E06733;
+    height: 44px;
+    width: 158px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 14px;
+}
+/* section welcome settings*/
+
+/* section about settings*/
+.about {
+    position: absolute;
+    display: flex;
+    height: 666px;
+    width: 1440px;
+    left: 0px;
+    top: 666px;
+    border-radius: 0px;
+    background: white;
+}
+
+.about_section {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 479px;
+    width: 1222px;
+    left: 109px;
+    top: 93px;
+    border-radius: 0px;
+    background: white;
+}
+
+.houseplant_photo {
+    height: 479px;
+    width: 464px;
+    border-radius: 0px;
+
+    background: url(../img/houseplant1.png);
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    width: 605px;
+    
+    
+
+}
+
+
+.about_text1 {
+    height: 102px;
+    width: 463px;
+    color: #499A18;
+    
+
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.about_text1 span {
+    color:#E06733;
+}
+
+.about_text2 {
+    height: 208px;
+    width: 605px;
+    
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* section about settings*/
+
+/* section service settings*/
+
+.service {
+    position: absolute;
+    display: flex;
+    height: 1300px;
+    width: 1440px;
+    left: 0px;
+    top: 1332px;
+    border-radius: 0px;
+
+    background: #EDF2EC;
+}
+.services_content {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+    width: 1007px;
+    left: 109px;
+    top: 40px;
+    border-radius: 5px;
+    background: #EDF2EC;
+}
+
+.Service_and_our_projects {
+    height: 94px;
+    width: 306px;
+
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #499A18;
+
+}
+
+.services_btns {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 559px;
+    border-radius: 5px;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#E06733;
+    border: 2px solid #E06733;
+    height: 50px;
+    width: 161px;
+    top: 69px;
+    border-radius: 5px;
+    
+}
+
+
+.services {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    background: #EDF2EC;
+    height: 955px;
+    width: 1222px;
+    left: 109px;
+    top: 224px;
+  /*  border-radius: 1px; */
+
+}
+
+.services_claster {
+    display: flex;
+    flex-direction: column;
+    background: #EDF2EC;
+    height: 450px;
+    width: 330px;
+    
+    
+
+}
+
+.services_claster_object_1_1 {
+    width: 329px;
+    height: 350px;
+    background: url(../img/first.jpg);
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+    
+} 
+
+.services_claster_object_1_2 {
+    width: 329px;
+    height: 350px;
+    background: url(../img/first1.jpg);
+    background-position: center;
+
+    border-radius: 20px 20px 0px 0px;
+    
+} 
+
+.services_claster_object_1_3 {
+    width: 329px;
+    height: 350px;
+    background: url(../img/first2.jpg);
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+    
+} 
+
+.services_claster_object_1_4 {
+    width: 329px;
+    height: 350px;
+    background: url(../img/first3.jpg);
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+    
+} 
+
+.services_claster_object_1_5 {
+    width: 329px;
+    height: 350px;
+    background: url(../img/first4.jpg);
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+    
+} 
+
+
+.services_claster_object_1_6 {
+    width: 329px;
+    height: 350px;
+    background: url(../img/first5.jpg);
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+    
+} 
+
+
+
+.services_claster_object_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 100px;
+    background: #EDF2EC;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.p1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    /* or 100% */
+    color: #E06733;
+}
+
+.p2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    /* identical to box height, or 125% */
+    color: #717171;
+}
+
+.img_services {
+    position: absolute;
+}
+/* section service settings*/
+
+
+/* section prices setting*/
+
+.prices {
+    position: absolute;
+    width: 1440px;
+    height: 560px;
+    left: 0px;
+    top: 2630px;
+
+    background: #FFFFFF;
+}
+
+
+.prices_wrapper {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 1222px;
+    height: 405px;
+    left: 109px;
+    top: 40px;
+
+    
+}
+
+.prices_block { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 332px;
+    height: 391.01px;
+    
+
+    
+}
+
+.prices_block_text {
+    
+    width: 135px;
+    height: 49px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.prices_block_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 332px;
+    height: 282.01px;
+
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.prices_block_menu_items {
+    width: 250px;
+    height: 214.01px;
+}
+
+.prices_ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    height: 214.01px;
+}
+
+
+.prices_li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.p_prices {
+    width: 100px;
+    height: 18px;
+}
+
+.button_prices {
+    width: 16px;
+    height: 16px; 
+    border: 0.5px;
+    border-radius: 16px;
+    border-color: #717171;
+    background: #D9D9D9;
+    
+    
+}
+
+.button_prices:hover, .button_prices:focus, .button_prices:active {
+    opacity: 0.7;
+}
+
+
+.button_prices img {
+    display: block;
+    
+    width: 8px;
+    height: 6px;
+    align-self: center;
+    
+}
+
+.text_call_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 452px;
+    height: 191.01px;   
+}
+
+
+.prices_leaf {
+    align-self: flex-end;
+    
+    width: 152px;
+    height: 174.99px;
+}
+
+
+.text_call_us_button {
+    width: 162px;
+    height: 50px;
+    align-self:flex-end;
+}
+
+.button_Contact_us {
+    position: absolute;
+    color:#E06733;
+    border: 2px solid #E06733;
+    height: 44px;
+    width: 158px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+
+.text_call_us_text {
+    height: 103px;
+    width: 452px;
+    
+    
+
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.text_call_us_text span {
+    color: #499A18;
+}
+/* section prices setting*/
+
+
+/* sectoin contacts settings */
+
+.contacts {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1440px;
+    height: 550px;
+    left: 0px;
+    top: 3190px;
+
+    background: #EDF2EC;
+}
+
+.contacts_div1 {
+    position: absolute;
+    width: 400px;
+    height: 496.99px;
+    left: 109px;
+    top: 53px;
+    
+    
+}
+
+.contacts_div2 {
+    position: absolute;
+    width: 195px;
+    height: 51px;   
+    left: 622px;
+    top: 60px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+
+    
+}
+
+.contacts_div3 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    left: 881px;
+    top: 148px;
+
+    background: #D6E7D2;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+
+.button_contacts {
+    width: 16px;
+    height: 16px; 
+    border: 0.5px;
+    border-radius: 16px;
+    border-color: #717171;
+    background: #D9D9D9;
+    
+}
+
+.button_contacts:hover, .button_contacts:focus, .button_contacts:active {
+    opacity: 0.7;
+}
+
+
+
+.p_contacts_div3 {
+    width: 204px;
+    height: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+/* identical to box height, or 200% */
+
+    letter-spacing: 0.05em;
+
+    color: #717171;
+}
+/* sectoin contacts settings */
+
+
+/* footer*/
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 130px;
+    left: 0px;
+    top: 3740px;
+
+    background: #FFFFFF;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1222px;
+    height: 50px;
+    left: 109px;
+    top: 40px;
+
+}
+
+.footer_data {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 50px;
+    width: 182px;
+    
+    
+
+}
+
+.p_footer_data {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.rsschool {
+    height: 50px;
+    width: 211px;
+    
+}
+
+.p_rsschool {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.social_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 188px;
+    height: 50px;
+    
+}
+
+.ul_social_list {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+/* footer*/
